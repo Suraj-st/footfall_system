@@ -62,7 +62,7 @@ class MyWindow(QMainWindow):
 
     def start_script1(self):
         if self.process1 is None or self.process1.poll() is not None:
-            self.process1 = subprocess.Popen(["python", "countinf_time_diff_sec_db.py"])
+            self.process1 = subprocess.Popen(["python", "counting_time_diff_sec_db.py"])
 
     def stop_script1(self):
         if self.process1 and self.process1.poll() is None:
