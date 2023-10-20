@@ -77,7 +77,7 @@ class MyWindow(QMainWindow):
             self.process2.terminate()
 
     def open_power_bi_dashboard(self):
-        dashboard_url = 'https://app.powerbi.com/groups/me/reports/4c5e506b-5fe8-439d-952a-9b0e394d0683/ReportSectionbb083367f6c128fb329f?experience=power-bi'
+        dashboard_url = 'https://app.powerbi.com/groups/me/reports/739d16d1-0aa6-44da-b2e8-71c014acc472/ReportSection15dbfb33205b066302e7?experience=power-bi'
         webbrowser.open(dashboard_url)
 
 if __name__ == '__main__':
